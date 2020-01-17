@@ -8,6 +8,12 @@ public class AnimalNoise {
 		Cat fluffy = new Cat();
 		System.out.println(fluffy.speak());
 		
+
+		Pig mrCuddles = new Pig("Mr. Cuddles", "pink", 4);
+		mrCuddles.playInMud();
+		System.out.println(mrCuddles.speak());
+		mrCuddles.bathe();
+		System.out.println(mrCuddles.speak());
 	}
 
 }
