@@ -11,9 +11,8 @@ public class AnimalNoise {
 
 		Pig mrCuddles = new Pig("Mr. Cuddles", "pink", 4);
 		mrCuddles.playInMud();
-		System.out.println("Is Mr. Cuddles clean? " + mrCuddles.isClean());
+		System.out.println(mrCuddles.speak());
 		mrCuddles.bathe();
-		System.out.println("Is Mr. Cuddles clean? " + mrCuddles.isClean());
 		System.out.println(mrCuddles.speak());
 	}
 

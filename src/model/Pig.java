@@ -5,6 +5,8 @@ public class Pig {
 	private String color;
 	private int age;
 	private boolean clean;
+	private String happyOink = "Oink!";
+	private String sadOink = "Squeal!";
 
 	public Pig() 
 	{
@@ -52,7 +54,14 @@ public class Pig {
 
 	public String speak() 
 	{
-		return "Oink";
+		if(isClean())
+		{
+			return sadOink;
+		}
+		else
+		{
+			return happyOink;
+		}
 	}
 	
 	public void bathe()
