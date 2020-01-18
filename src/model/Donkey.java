@@ -45,5 +45,7 @@ public class Donkey {
 	public String speak() {
 		return "Hee-Haw!";
 	}
-
+	public String display() {
+		return name + " the donkey says "+speak();
+	}
 }
