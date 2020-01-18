@@ -19,6 +19,13 @@ public class AnimalNoise {
 		System.out.println(joe.display());
 		System.out.println(jenny.display());
 		System.out.println(jack.display());
+		
+
+		Pig mrCuddles = new Pig("Mr. Cuddles", "pink", 4);
+		mrCuddles.playInMud();
+		System.out.println(mrCuddles.speak());
+		mrCuddles.bathe();
+		System.out.println(mrCuddles.speak());
 	}
 
 }
