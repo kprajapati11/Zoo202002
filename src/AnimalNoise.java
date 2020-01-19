@@ -26,6 +26,10 @@ public class AnimalNoise {
 		System.out.println(mrCuddles.speak());
 		mrCuddles.bathe();
 		System.out.println(mrCuddles.speak());
+		
+		
+		Lion simba = new Lion(false, 2, "Simba");
+		System.out.println(simba.speak());
 	}
 
 }
