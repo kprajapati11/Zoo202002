@@ -1,3 +1,5 @@
+
+//change in browser 
 import model.*;
 
 public class AnimalNoise {
@@ -7,11 +9,20 @@ public class AnimalNoise {
 	public static void main(String[] args) {
 		Cat fluffy = new Cat();
 		System.out.println(fluffy.speak());
+    
+		Donkey joe = new Donkey("Joe", "Brown", 4);
+		System.out.println(joe.speak());
+
+		Pig mrCuddles = new Pig("Mr. Cuddles", "pink", 4);
+		System.out.println(mrCuddles.speak());
 		
-		//Anthony Hamlin
+		Lion simba = new Lion(false, 2, "Simba");
+		System.out.println(simba.speak());
+    
 		Rabbit MrNibbles = new Rabbit();
 		System.out.println(MrNibbles.speak());
 		
+
 	}
 
 }

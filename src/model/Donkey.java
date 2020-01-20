@@ -1,17 +1,17 @@
 package model;
 
 //test change 4:56pm
-public class Cat {
+public class Donkey {
 	private String name;
 	private String color;
 	private int age;
 
-	public Cat() {
+	public Donkey() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public Cat(String name, String color, int age) {
+	public Donkey(String name, String color, int age) {
 		super();
 		this.name = name;
 		this.color = color;
@@ -43,7 +43,9 @@ public class Cat {
 	}
 
 	public String speak() {
-		return "Meow";
+		return "Hee-Haw!";
 	}
-
+	public String display() {
+		return name + " the donkey says "+speak();
+	}
 }
