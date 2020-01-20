@@ -8,6 +8,10 @@ public class AnimalNoise {
 		Cat fluffy = new Cat();
 		System.out.println(fluffy.speak());
 		
+		//Anthony Hamlin
+		Rabbit MrNibbles = new Rabbit();
+		System.out.println(MrNibbles.speak());
+		
 	}
 
 }
