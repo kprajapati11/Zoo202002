@@ -24,6 +24,8 @@ public class AnimalNoise {
 		Rabbit MrNibbles = new Rabbit();
 		System.out.println(MrNibbles.speak());
 		
+		Dog pepper = new Dog("Pepper", "Brown", 5);
+		System.out.println(pepper.speak());
 
 	}
 
