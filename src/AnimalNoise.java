@@ -26,6 +26,10 @@ public class AnimalNoise {
 		
 		Dog pepper = new Dog("Pepper", "Brown", 5);
 		System.out.println(pepper.speak());
+		
+		Sheep arthur = new Sheep("Arthur", "white", 9);
+		System.out.println(arthur.speak());
+				
 
 	}
 
