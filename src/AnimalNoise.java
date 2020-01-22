@@ -29,7 +29,9 @@ public class AnimalNoise {
 		
 		Sheep arthur = new Sheep("Arthur", "white", 9);
 		System.out.println(arthur.speak());
-				
+		
+		Horse seabiscuit = new Horse("Seabiscuit", 13, "Thoroughbred");
+		System.out.println(seabiscuit.speak());
 
 	}
 
