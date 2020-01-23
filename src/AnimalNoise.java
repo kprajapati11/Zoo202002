@@ -31,6 +31,9 @@ public class AnimalNoise {
 		
 		Mouse jerry = new Mouse("Jerry", "Brown", 2);
 		System.out.println(jerry.speak());
+		
+		Frog kermit = new Frog("Kermit", "Green", 64);
+		System.out.println(kermit.speak());
 
 	}
 
