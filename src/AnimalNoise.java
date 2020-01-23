@@ -28,12 +28,16 @@ public class AnimalNoise {
 		
 		Horse seabiscuit = new Horse("Seabiscuit", 13, "Thoroughbred");
 		System.out.println(seabiscuit.speak());
-    
-    Mouse jerry = new Mouse("Jerry", "Brown", 2);
+		
+		Mouse jerry = new Mouse("Jerry", "Brown", 2);
 		System.out.println(jerry.speak());
-
-		Parrot polly = new Parrot(false, false, new String[]{"polly wanna cracker"});
+    
+    Parrot polly = new Parrot(false, false, new String[]{"polly wanna cracker"});
 		System.out.println(polly.speak());
+		
+		Frog kermit = new Frog("Kermit", "Green", 64);
+		System.out.println(kermit.speak());
+
 	}
 
 }
