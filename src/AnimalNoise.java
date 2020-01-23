@@ -1,12 +1,8 @@
-
-//change in browser 
 import model.*;
 
 public class AnimalNoise {
 	//add your animal class to the model package
 	//only push this file and the animal class you created
-	
-	// Test
 
 	public static void main(String[] args) {
 		Cat fluffy = new Cat();
@@ -32,6 +28,9 @@ public class AnimalNoise {
 		
 		Horse seabiscuit = new Horse("Seabiscuit", 13, "Thoroughbred");
 		System.out.println(seabiscuit.speak());
+    
+    Mouse jerry = new Mouse("Jerry", "Brown", 2);
+		System.out.println(jerry.speak());
 
 		Parrot polly = new Parrot(false, false, new String[]{"polly wanna cracker"});
 		System.out.println(polly.speak());
