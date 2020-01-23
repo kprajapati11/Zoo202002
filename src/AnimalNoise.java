@@ -33,6 +33,8 @@ public class AnimalNoise {
 		Horse seabiscuit = new Horse("Seabiscuit", 13, "Thoroughbred");
 		System.out.println(seabiscuit.speak());
 
+		Parrot polly = new Parrot(false, false, new String[]{"polly wanna cracker"});
+		System.out.println(polly.speak());
 	}
 
 }
