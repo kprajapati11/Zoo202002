@@ -1,12 +1,8 @@
-
-//change in browser 
 import model.*;
 
 public class AnimalNoise {
 	//add your animal class to the model package
 	//only push this file and the animal class you created
-	
-	// Test
 
 	public static void main(String[] args) {
 		Cat fluffy = new Cat();
