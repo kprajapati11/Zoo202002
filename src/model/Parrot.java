@@ -38,11 +38,11 @@ public class Parrot {
         this.isLoud = isLoud;
     }
 
-    public boolean isAnnoying() {
+    public boolean getIsAnnoying() {
         return this.isAnnoying;
     }
 
-    public void isAnnoying(boolean isAnnoying) {
+    public void setIsAnnoying(boolean isAnnoying) {
         this.isAnnoying = isAnnoying;
     }
 
